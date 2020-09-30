@@ -1,3 +1,5 @@
+# Program for Binary Search in Python!
+
 def binary_search_recursive(a, left, right, e):
     if left <= right:
         middle = left + int((right - left) / 2)
@@ -20,7 +22,7 @@ def binary_search(a, left, right, e):
             right = middle - 1
 
 
-# Example:
+# Example of Binary Search:
 array = [1, 2, 3, 4, 5, 6, 7, 8]
 position = binary_search_recursive(array, 0, 7, 2)
 print(position)
